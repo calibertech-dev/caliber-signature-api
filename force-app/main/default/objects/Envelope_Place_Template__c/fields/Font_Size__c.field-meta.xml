@@ -5,4 +5,6 @@
     <precision>2</precision>
     <scale>0</scale>
     <type>Number</type>
+    <defaultValue>12</defaultValue>
+    <inlineHelpText>Must be between 6 and 12. The default is 12.</inlineHelpText>
 </CustomField>

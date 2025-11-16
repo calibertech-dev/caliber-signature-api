@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Capture_As__c</fullName>
     <label>Capture As</label>
-    <precision>2</precision>
-    <scale>0</scale>
-    <type>Number</type>
+    <length>32</length>
+    <type>Text</type>
+    <inlineHelpText>A user-defined identifier used to store the value entered by the recipient. Must start with a lowercase letter and contain only lowercase letters, numbers, or underscores.</inlineHelpText>
 </CustomField>

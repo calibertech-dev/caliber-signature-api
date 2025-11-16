@@ -11,9 +11,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Awaiting</fullName>
+                <default>false</default>
+                <label>Awaiting</label>
+            </value>
+            <value>
                 <fullName>Pending</fullName>
                 <default>false</default>
                 <label>Pending</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
             </value>
             <value>
                 <fullName>Completed</fullName>
@@ -26,10 +36,20 @@
                 <label>Rejected</label>
             </value>
             <value>
-                <fullName>Expired</fullName>
+                <fullName>Bounced</fullName>
                 <default>false</default>
-                <label>Expired</label>
+                <label>Bounced</label>
             </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <label>Failed</label>
+            </value>  
+            <value>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+                <label>Replaced</label>
+            </value>  
         </valueSetDefinition>
     </valueSet>
 </CustomField>

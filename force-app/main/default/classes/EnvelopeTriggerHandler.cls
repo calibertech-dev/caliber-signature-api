@@ -24,7 +24,7 @@ public with sharing class EnvelopeTriggerHandler {
         PolymorphicRecordNameService.updateParentRecordNames(asSObjects, oldAsSObjects);
     }
 
-    // Stubs for future logic if you need them later
+    // Stubs for future logic
     public static void afterInsert(List<Envelope__c> newList) {}
     public static void afterUpdate(List<Envelope__c> newList,
                                    Map<Id, Envelope__c> oldMap) {}
