@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hint_Invalid_For_Type</fullName>
+    <active>true</active>
+    <description>Ensures Hint is only set for text_input types.</description>
+    <errorConditionFormula>AND(
+            NOT(ISBLANK(Hint__c)),
+            TEXT(Place_Type__c) = &apos;text_input&apos;
+        )</errorConditionFormula>
+    <errorDisplayField>Hint__c</errorDisplayField>
+    <errorMessage>Hint can only be set for Text Input place types.</errorMessage>
+</ValidationRule>

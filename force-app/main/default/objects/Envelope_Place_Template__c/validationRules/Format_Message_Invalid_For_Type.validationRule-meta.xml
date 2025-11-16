@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Format_Message_Invalid_For_Type</fullName>
+    <active>true</active>
+    <description>Ensures Format Message is only set for text_input types.</description>
+    <errorConditionFormula>AND(
+            NOT(ISBLANK(Format_Message__c)),
+            TEXT(Place_Type__c) = &apos;text_input&apos;
+        )</errorConditionFormula>
+    <errorDisplayField>Format_Message__c</errorDisplayField>
+    <errorMessage>Format Message can only be set for Text Input place types.</errorMessage>
+</ValidationRule>

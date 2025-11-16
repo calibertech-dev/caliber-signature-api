@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capture_As_Invalid_For_Type</fullName>
+    <active>true</active>
+    <description>Ensures Capture As is only set for text_input or checkbox place types.</description>
+    <errorConditionFormula>AND(
+            NOT(ISBLANK(Capture_As__c)),
+            NOT(
+                OR(
+                    TEXT(Place_Type__c) = &apos;text_input&apos;,
+                    TEXT(Place_Type__c) = &apos;checkbox&apos;
+                )
+            )
+        )</errorConditionFormula>
+    <errorDisplayField>Capture_As__c</errorDisplayField>
+    <errorMessage>Capture As can only be set for Text Input or Checkbox place types.</errorMessage>
+</ValidationRule>

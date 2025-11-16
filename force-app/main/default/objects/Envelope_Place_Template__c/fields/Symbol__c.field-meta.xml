@@ -9,7 +9,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>check</fullName>
-                <default>true</default>
+                <default>false</default>
                 <label>Check</label>
             </value>
             <value>

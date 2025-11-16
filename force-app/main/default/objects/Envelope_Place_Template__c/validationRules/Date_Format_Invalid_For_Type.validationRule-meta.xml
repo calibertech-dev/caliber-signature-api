@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Format_Invalid_For_Type</fullName>
+    <active>true</active>
+    <description>Ensures Date Format is only set for date types.</description>
+    <errorConditionFormula>AND(
+        NOT(ISPICKVAL(Date_Format__c, &apos;&apos;)),
+        NOT(ISPICKVAL(Place_Type__c, &apos;envelope_completed_date&apos;))
+    )</errorConditionFormula>
+    <errorDisplayField>Date_Format__c</errorDisplayField>
+    <errorMessage>Date Format can only be set for Envelope Completed Date place types.</errorMessage>
+</ValidationRule>

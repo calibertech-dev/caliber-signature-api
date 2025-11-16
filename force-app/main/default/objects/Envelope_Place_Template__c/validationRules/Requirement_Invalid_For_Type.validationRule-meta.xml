@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requirement_Invalid_For_Type</fullName>
+    <active>true</active>
+    <description>Ensures Requirement is only set for text_input or checkbox place types.</description>
+    <errorConditionFormula>AND(
+        NOT(ISPICKVAL(Requirement__c, &apos;&apos;)),
+        NOT(
+            OR(
+                ISPICKVAL(Place_Type__c, &apos;text_input&apos;),
+                ISPICKVAL(Place_Type__c, &apos;checkbox&apos;)
+            )
+        )
+    )</errorConditionFormula>
+    <errorDisplayField>Requirement__c</errorDisplayField>
+    <errorMessage>Requirement can only be set for Text Input or Checkbox place types.</errorMessage>
+</ValidationRule>

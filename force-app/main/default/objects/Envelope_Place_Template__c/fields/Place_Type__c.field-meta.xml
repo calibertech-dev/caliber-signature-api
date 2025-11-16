@@ -20,7 +20,7 @@
             <value>
                 <fullName>text_input</fullName>
                 <default>false</default>
-                <label>Text</label>
+                <label>Text Input</label>
             </value>
             <value>
                 <fullName>checkbox</fullName>

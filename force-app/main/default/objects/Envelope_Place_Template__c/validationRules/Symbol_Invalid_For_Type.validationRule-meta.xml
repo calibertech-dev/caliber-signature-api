@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Symbol_Invalid_For_Type</fullName>
+    <active>true</active>
+    <description>Ensures Symbol is only set for checkbox types.</description>
+    <errorConditionFormula>AND(
+        NOT(ISPICKVAL(Symbol__c, &apos;&apos;)),
+        NOT(ISPICKVAL(Place_Type__c, &apos;checkbox&apos;))
+    )</errorConditionFormula>
+    <errorDisplayField>Symbol__c</errorDisplayField>
+    <errorMessage>Symbol can only be set for Checkbox place types.</errorMessage>
+</ValidationRule>
