@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branding__c</fullName>
+    <label>Branding</label>
+    <referenceTo>Business_Unit_Branding__c</referenceTo>
+    <relationshipLabel>Envelope Templates</relationshipLabel>
+    <relationshipName>Branding_Envelope_Templates</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Place_Type__c</fullName>
+    <label>Place Type</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>signature</fullName>
+                <default>true</default>
+                <label>Signature</label>
+            </value>
+            <value>
+                <fullName>initials</fullName>
+                <default>false</default>
+                <label>Initials</label>
+            </value>
+            <value>
+                <fullName>text</fullName>
+                <default>false</default>
+                <label>Text</label>
+            </value>
+            <value>
+                <fullName>checkbox</fullName>
+                <default>false</default>
+                <label>Checkbox</label>
+            </value>
+            <value>
+                <fullName>envelope_completed_date</fullName>
+                <default>false</default>
+                <label>Envelope Completed Date</label>
+            </value>
+            <value>
+                <fullName>recipient_completed_date</fullName>
+                <default>false</default>
+                <label>Recipient Completed Date</label>
+            </value>
+            <value>
+                <fullName>recipient_name</fullName>
+                <default>false</default>
+                <label>Recipient Name</label>
+            </value>
+             <value>
+                <fullName>recipient_email</fullName>
+                <default>false</default>
+                <label>Recipient Email</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

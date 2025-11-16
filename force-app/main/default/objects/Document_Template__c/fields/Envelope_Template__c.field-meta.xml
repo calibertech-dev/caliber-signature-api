@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Envelope_Template__c</fullName>
+    <label>Envelope Template</label>
+    <referenceTo>Envelope_Template__c</referenceTo>
+    <relationshipLabel>Contract Templates</relationshipLabel>
+    <relationshipName>Envelope_Template_Document_Templates</relationshipName>
+    <type>MasterDetail</type>
+</CustomField>
