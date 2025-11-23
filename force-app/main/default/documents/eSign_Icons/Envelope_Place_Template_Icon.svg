@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="envelope_place_template" transform="matrix(0.2765,0,0,0.2765,49.954191,50.436045)">
+        <g id="esign">
+            <g id="envelope_place_template1" serif:id="envelope_place_template" transform="matrix(1,0,0,1,-108.333333,-108.333333)">
+                <g transform="matrix(4.166667,0,0,4.166667,0,0)">
+                    <path d="M48.5,38L44,38L44,33.5C44,32.7 43.3,32 42.5,32L39.5,32C38.7,32 38,32.7 38,33.5L38,38L33.5,38C32.7,38 32,38.7 32,39.5L32,42.5C32,43.3 32.7,44 33.5,44L38,44L38,48.5C38,49.3 38.7,50 39.5,50L42.5,50C43.3,50 44,49.3 44,48.5L44,44L48.5,44C49.3,44 50,43.3 50,42.5L50,39.5C50,38.7 49.3,38 48.5,38ZM34,29.5C34,28.7 34.7,28 35.5,28L38,28L38,6C38,3.806 36.194,2 34,2L6,2C3.806,2 2,3.806 2,6L2,34C2,36.194 3.806,38 6,38L28,38L28,35.5C28,34.7 28.7,34 29.5,34L34,34L34,29.5ZM16,11C16,11.6 15.6,12 15,12L9,12C8.4,12 8,11.6 8,11L8,9C8,8.4 8.4,8 9,8L15,8C15.6,8 16,8.4 16,9L16,11ZM28,27C28,27.6 27.6,28 27,28L9,28C8.4,28 8,27.6 8,27L8,25C8,24.4 8.4,24 9,24L27,24C27.6,24 28,24.4 28,25L28,27ZM32,19C32,19.6 31.6,20 31,20L9,20C8.4,20 8,19.6 8,19L8,17C8,16.4 8.4,16 9,16L31,16C31.6,16 32,16.4 32,17L32,19Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+            <g id="envelope_place_template2" serif:id="envelope_place_template">
+            </g>
+        </g>
+    </g>
+</svg>
